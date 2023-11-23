@@ -1,0 +1,39 @@
+
+__pycache__/
+env/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.log
+__init__.py
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Dependency directories
+venv/
+.env
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+dist/
+build/
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
