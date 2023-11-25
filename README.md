@@ -5,7 +5,7 @@
 # fork(clone) repository using
 git clone https://github.com/{{username]}/query_engine.git
 
-#go to chatty folder
+# go to query_engine directory
 cd query_engine
 
 # create virtual environment
