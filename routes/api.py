@@ -20,10 +20,8 @@ def build_prompt(product_query: str, references: list) -> tuple[str, str]:
     """.strip()
 
     references_text = ""
-    print(references)
-    for i, reference in enumerate(references.documents, start=1):
-        print(i, reference)
-        text = reference.strip()
+    for i, reference in enumerate(references["documents"], start=1):
+        text = reference[0].strip()
         references_text += f"\n[{i}]: {text}"
 
     prompt += f"""
